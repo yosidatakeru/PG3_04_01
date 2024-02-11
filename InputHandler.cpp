@@ -24,6 +24,7 @@ ICommand* InputHandler::HandleInput()
 	return nullptr;
 }
 
+
 void InputHandler::AssigMoveLeftCommand2PressKeyA()
 {
 	ICommand* command = new LeftCommand();
